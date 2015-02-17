@@ -23,6 +23,8 @@ Code is licensed under the Apache 2.0 license.
 
 
 NOTES:
+File structure:
+- there are two folders: part one and part 2, for each part there is another folder 'screenshots' within part 1 or part 2, for the screenshots
 For the Gutenberg project, the html pages were changed as follows:
 - the following line was added before the <body> tag : <link href="gutenberg.css" rel="stylesheet">
 - the h1 header tag was modified with : class="caption"
