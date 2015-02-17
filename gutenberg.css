@@ -1,0 +1,94 @@
+body{
+    background-image: url('paper.jpeg');
+    background-repeat: repeat;
+    
+}
+
+h2 {
+    font-family: "Verdana", Geneva, sans-serif;
+
+    background-image: url('green.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+
+
+}
+
+
+.caption{
+    font-family: "Verdana", Geneva, sans-serif;
+
+    font-weight:bold;
+    font-style: italic;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+
+    text-shadow: 6px 3px 6px white;
+
+
+    background-image: url('headerimg.jpg');
+    background-repeat: no-repeat;
+
+
+    position: relative;
+    width: 100%;
+    height: 300px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    color:black;
+
+
+    padding-right: 10%;
+    margin-right: -10%;
+    padding-left: 10%;
+    margin-left: -10%;
+
+    font-weight:bold;
+    font-style: italic;
+    
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+
+
+    line-height: 970%;
+
+    overflow-x: hidden;
+    
+
+
+}
+
+.caption br{
+    display:none;
+}
+
+
+
+a{
+    color: #2F4F4F;
+}
+a:hover{
+    color:black;
+}
+
+.nocolor{
+    background-image: none;
+    box-shadow:none;
+    font-style: italic;
+    text-align:center;
+}
+
+
+
+p {
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 84%;
+    
+
+}
