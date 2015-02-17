@@ -15,10 +15,20 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle and Ana Marcu (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+
+NOTES:
+For the Gutenberg project, the html pages were changed as follows:
+- the following line was added before the <body> tag : <link href="gutenberg.css" rel="stylesheet">
+- the h1 header tag was modified with : class="caption"
+- h2 headers before the 'contents' were modified with : class="nocolor"
+- the contents (at the top) with chapter links were modified with: class = "toc" for all of them
+
+
+- for part 2, some css elements are specific to firefox (the complementary safari syntax is commented out) - the file is now set for firefox
 
